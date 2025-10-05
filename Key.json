@@ -1,0 +1,28 @@
+{
+  "showDialog": true,
+  "title": "NextDnsAntiband🥱",
+  "description": "Tham Gia Nhóm Telegram Để Nhận Tài Khoản Mật Khẩu ",
+  "button": "LOGIN",
+  "toast": "✅ Đã đăng nhập thành công!",
+  "renewUrl": "https://t.me/+OacCr8pc-DRhMjNl",
+  "devices": [
+    {
+      "device_id": "591a2a49ce8ca4dc",
+      "Tài Khoản": "key-free",
+      "Mật Khẩu": "antiband",
+      "expire_date": "2025-10-20"
+    },
+    {
+      "device_id": "abcdef9876543210",
+      "username": "demo",
+      "password": "demo123",
+      "expire_date": "2026-04-15"
+    },
+    {
+      "device_id": "testdevice11223344",
+      "username": "user",
+      "password": "pass",
+      "expire_date": "2026-06-01"
+    }
+  ]
+}
