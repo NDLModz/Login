@@ -1,0 +1,43 @@
+pages:
+
+  stage: deploy
+
+  script:
+
+    # Create the public directory for artifacts
+
+    - mkdir .public
+
+    
+
+    # Use 'find' to copy all files and directories into .public, 
+
+    # explicitly excluding the file named 'Key.json'
+
+    # The '.' at the end specifies the current directory as the source.
+
+    - find . -path ./.public -prune -o -not -name "Key.json" -exec cp -r "{}" .public/ ";"
+
+
+
+    # Move the temporary directory to the final 'public' path required by GitLab Pages
+
+    - mv .public public
+
+    
+
+  artifacts:
+
+    paths:
+
+      # This is the directory GitLab Pages looks for
+
+      - public
+
+      
+
+  only:
+
+    # This ensures the job only runs when a change is pushed to the 'main' branch
+
+    - main
