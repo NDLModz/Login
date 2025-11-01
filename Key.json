@@ -1,28 +1,27 @@
 {
-  "showDialog": true,
-  "title": "NextDnsAntiband🥱",
-  "description": "Tham Gia Nhóm Telegram Để Nhận Tài Khoản Mật Khẩu ",
-  "button": "LOGIN",
-  "toast": "✅ Đã đăng nhập thành công!",
-  "renewUrl": "https://t.me/+OacCr8pc-DRhMjNl",
-  "devices": [
+  "maintenance": {
+    "enabled": false,
+    "message": "We are currently updating our servers. Please check back later. Follow us on Telegram for updates.",
+    "background_color": "#FF0000"
+  },
+  "credentials": [
     {
-      "device_id": "085bc4f80d805ddd",
-      "Tài Khoản": "key-free",
-      "Mật Khẩu": "antiband",
-      "expire_date": "2025-10-20"
+      "username": "user123",
+      "password": "pass123",
+      "expire_date": "2026-06-30",
+      "device_limit": 1
     },
     {
-      "device_id": "abcdef9876543210",
-      "username": "demo",
-      "password": "demo123",
-      "expire_date": "2026-04-15"
+      "username": "vip_user",
+      "password": "vip_password",
+      "expire_date": "2030-01-01",
+      "device_limit": 3
     },
     {
-      "device_id": "testdevice11223344",
-      "username": "user",
-      "password": "pass",
-      "expire_date": "2026-06-01"
+      "username": "testkey",
+      "password": "testpass",
+      "expire_date": "2025-10-25",
+      "device_limit": 1
     }
   ]
 }
